@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button ask =(Button) findViewById(R.id.button);
         final ImageView img =(ImageView) findViewById(R.id.imageView);
 
-        final int[] imgarray ={
+        final int[] imgarray1 ={
                 R.drawable.ball1,
                 R.drawable.ball2,
                 R.drawable.ball3,
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 Random num1= new Random();
                 int number;
                 number = num1.nextInt(4);
-                img.setImageResource(imgarray[number]);
+                img.setImageResource(imgarray1[number]);
             }
         });
     }
